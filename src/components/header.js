@@ -3,8 +3,12 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <header className="App-header">
-        <p>Meme App</p>
+      <header>
+        <img
+          src="http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png"
+          alt="Problem?"
+        />
+        <p> Meme App</p>
       </header>
     </div>
   );
